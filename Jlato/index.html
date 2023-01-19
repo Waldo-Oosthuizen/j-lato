@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+    <link href="style.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <img src="J-lato_logo.png" width="220px" height="65px">
+        </div>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutText">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Product List</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <span class="navTrigger">    
+          <i></i>
+          <i></i>
+          
+        </span>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    </section>
+
+
+    <div id="aboutText" class="about">
+      <h2 class="myH2">What is gelato?</h2>
+      <p class="myP">
+        Gelato is an Italian-style ice cream that is lower in fat and richer in flavour compared to regular ice cream.
+			</p>
+      <h2>Why choose J-lato?</h2>
+      <p>We are extremely passionate about gelato and sorbet, to the extent that we import all of our ingredients and equipment directly from Italy. We offer a wide variety of flavours, our products are gluten-free and per request, can be lactose and sugar free as well. We cater for events and parties and we also provide freezers for our products to be stored in at any location. </p>
+    </div>
+    </div>
+
+  </div>
+  
+  <div id="services" class="services">
+    
+    <h2>What we offer</h2>
+        <p>Catering for events and parties - both indoor and outdoor.</p>
+        <p>We supply freezers/display freezers for our products.</p>
+        <p>We offer confectioner services - Our chef will man a gelato/sorbet station, maintain the use of machinery and product distribution.</p>
+        <p>We provide stable, unique and quality products for distribution for various resturants and shops according to their requests.</p>
+        <p>We cater for clients who desire gluten free, vegan and lactose free options.</p>
+  </div>
+
+
+  
+
+    <div id="products" class="products">
+      <h2>Products</h2>
+      <p><img src="g-text.png">Gelato truffles(Gelato centred white chocolate desert)</p>
+      <p><img src="g-text.png">Gelato Choc taco</p>
+      <p><img src="g-text.png">Gelato Pie(Peanut-butter rice crispy crust)</p>
+      <p><img src="g-text.png">Affogato</p>
+      <p><img src="g-text.png">Alcohol flavoured gelato</p>
+      <p><img src="g-text.png">5lt pans</p>
+      <p><img src="g-text.png">Breakfast/fruit cups</p>
+      <p><img src="g-text.png">Frozen treats</p>
+      <p><img src="g-text.png">Slush Puppy</p>
+      <p><img src="g-text.png">Frozen Yogurt</p>
+      <p><img src="g-text.png">Deep fried ice cream</p>
+      <p><img src="g-text.png">Japanese mochi gelato</p>
+      <p><img src="g-text.png">Brownie bars</p>
+    </div>
+    
+    <div id="contact">
+      <h1>Contact us</h1>
+      <img src="icons8-mail.svg" height="60px" width="60px"><p> jrmalan1996@outlook.com</p>
+      <img src="icons8-whatsapp.svg" height="60px" width="60px"><p>072 605 0718</p>
+    </div>
+
+    <div class="map-container">
+      <h1>Find us in store</h1>
+      <p>Marina Martinique, Jeffreys Bay</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13218.89376678204!2d24.907517783219262!3d-34.07660308958708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7af898caadbcad%3A0xd170d9c99b6f4f57!2sMarina%20Martinique%2C%20Jeffreys%20Bay%2C%206332!5e0!3m2!1sen!2sza!4v1674106783123!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div class="footer">
+      <a href="#" class="go-top">Go to the top&#8593;</a>
+      <p>&#169; 2023 J-lato</p>
+      <p>Follow us:</p>
+      <a href="https://www.facebook.com/JlatoJbay?mibextid=ZbWkwL"><img src="icons8-facebook.svg" width="60px" height="60px"></a>
+      <a href="https://instagram.com/jbayj_jlato?igshid=NTdlMDg3MTY="><img src="icons8-instagram.svg" width="60px" height="60px"></a>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      $(window).scroll(function(){
+        if ($(document).scrollTop()> 200){
+          $('.nav').addClass('navChange');
+        } else {
+          $('.nav').removeClass('navChange');
+        }
+      })
+    </script>
+  </body>
+</html>
